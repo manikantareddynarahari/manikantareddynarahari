@@ -1,0 +1,162 @@
+@media (min-width: 1140px)
+bootstrap.css:9
+.container {
+    max-width: 970px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+body{
+	background-color:#A8BB61;
+	color: #000;
+}
+
+.txt-color{
+	background-color: #B8D078;
+	color: #000;
+}
+
+.iam{
+	font-size:75px;
+	margin: 
+	margin-top
+	t 
+}
+
+.profile-pic img{
+	 width: 75px;
+	border-radius: 100%;
+}
+
+.playat{
+	font-size: 15px;
+}
+
+.nav-list li{
+	padding: 10px 25px;
+}
+
+.nav-list a{
+	color:#4F4C4C; 
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+.nav-list li:hover a{
+	color: #000;
+	border-bottom: 4px solid #000;
+
+}
+
+.my-name p {
+	margin-top: 100px;
+	font-family: 'Allura', cursive;
+}
+
+.my-name h1{
+	 font-size: 100px;
+}
+
+.change-font{
+	font-family: "arial";
+	font-size: 30px; 
+}
+
+.index-image{
+	width: 730px;
+	margin-top: 60px;
+}
+
+/*@media screen and (max-width: 699px) and (min-width: 520px) {
+    .my-name p {
+	font-size: 50px;
+}
+
+    }
+*/
+
+.my-image img{
+	width: 250px;
+
+}
+.about-me img{
+	width: 200px;
+	 margin: auto;
+}
+
+.hai{
+	font-size: 22px;
+}
+
+.about-me p{
+	font-size: 1.2em;
+	margin: 0 0 10px;
+    font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: 300;
+        display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.what-cani{
+	padding-top: 150px;
+}
+
+.what-cani-text{
+	font-size: 18px;
+}
+
+.profile-image{
+	width: 105px;
+	background-color: #c6c6c6;
+	border-radius: 100%;
+}
+
+.need{
+	margin-top: 100px;
+}
+
+.profile-image2{
+	width: 80px;
+	background-color: #c6c6c6;
+	border-radius: 100%;
+}
+
+.mywork{
+	padding-top: 100px;
+}
+
+.mywork-image{
+	width:250px;
+}
+
+.footer{
+	background-color: #FFBB51;
+
+}
+
+.footer-ul{
+	padding: 25px;
+}
+
+.footer a{
+ 	color: #DC5757;
+ 	padding: 50px;
+ 	text-decoration: none;
+}
