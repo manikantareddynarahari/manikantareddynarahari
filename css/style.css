@@ -19,22 +19,26 @@ bootstrap.css:9
 	text-decoration: none;
 }
 
-
-body{
-	background-color:#A8BB61;
-	color: #000;
+.index{
+	background-color:#F7FEDE;  
 }
+
+.nav{
+	background-color: #fff
+}
+
+.index-row{
+	margin-top:100px;
+}
+ 
 
 .txt-color{
-	background-color: #B8D078;
-	color: #000;
+	background-color: #fff;
+	color: #282828;
 }
 
-.iam{
-	font-size:75px;
-	margin: 
-	margin-top
-	t 
+.footer{
+	background-color: #DD575A;
 }
 
 .profile-pic img{
@@ -51,14 +55,14 @@ body{
 }
 
 .nav-list a{
-	color:#4F4C4C; 
+	color:#91A251; 
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 20px;
 }
 .nav-list li:hover a{
-	color: #000;
-	border-bottom: 4px solid #000;
+	color: #DD575A;
+	border-bottom: 4px solid #DD575A;
 
 }
 
@@ -73,12 +77,25 @@ body{
 
 .change-font{
 	font-family: "arial";
-	font-size: 30px; 
+	font-size: 25px; 
 }
 
 .index-image{
-	width: 730px;
-	margin-top: 60px;
+	width: 850px;
+	padding-left ;
+	position: relative;
+}
+
+.iam{
+	/*background-color: rgba(233 75 79);*/
+
+	position: absolute;
+	top: 8%;
+	left: 30%;
+	font-size: 100px;
+	font-family: "allura";
+	line-height:60px;
+	color: #000;
 }
 
 /*@media screen and (max-width: 699px) and (min-width: 520px) {
@@ -105,8 +122,7 @@ body{
 .about-me p{
 	font-size: 1.2em;
 	margin: 0 0 10px;
-    font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-    font-weight: 300;
+     font-weight: 300;
         display: block;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
@@ -116,6 +132,10 @@ body{
 
 .what-cani{
 	padding-top: 150px;
+}
+
+.what-cani div{
+	margin-top: 50px;
 }
 
 .what-cani-text{
@@ -139,7 +159,7 @@ body{
 }
 
 .mywork{
-	padding-top: 100px;
+	padding-top: 175px;
 }
 
 .mywork-image{
@@ -147,16 +167,25 @@ body{
 }
 
 .footer{
-	background-color: #FFBB51;
 
+	justify-content: center;
+	margin-top: 150px;
 }
 
-.footer-ul{
-	padding: 25px;
+.footer li:hover a{
+	color: #000;
+}
+
+.footer li{
+	padding: 50px;
 }
 
 .footer a{
- 	color: #DC5757;
- 	padding: 50px;
+	font-size: 15px;
+ 	color:#cecece;
+ 	padding-left: 5px;
  	text-decoration: none;
+}
+.footer img{
+	width: 20px;
 }
