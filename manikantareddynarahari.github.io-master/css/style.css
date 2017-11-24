@@ -1,0 +1,193 @@
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.index{
+	background-color:#F7FEDE;  
+}
+
+.nav{
+	background-color: #fff
+}
+
+.index-row{
+	margin-top:100px;
+}
+ 
+
+.txt-color{
+	background-color: #fff;
+	color: #282828;
+}
+
+.footer{
+	background-color: #DD575A;
+}
+
+.profile-pic img{
+	 width: 75px;
+	 
+}
+
+.playat{
+	font-size: 15px;
+}
+
+.nav-list li{
+	padding: 10px 25px;
+}
+
+.nav-list a{
+	color:#91A251; 
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+.nav-list li:hover a{
+	color: #DD575A;
+	border-bottom: 4px solid #DD575A;
+
+}
+
+.my-name p {
+	margin-top: 100px;
+	font-family: 'Allura', cursive;
+}
+
+.my-name h1{
+	 font-size: 100px;
+}
+
+.change-font{
+	font-family: 'Dancing Script', cursive;
+	font-size: 25px; 
+}
+
+.index-image{
+	min-height : 80vh;
+	background-image: url("../images/index-image.png"); 
+	background-position: center bottom;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+ 
+.iam{
+	font-family: 'Dancing Script', cursive;
+	color: rgb(0,0,0);
+	box-shadow:  5px #565656;
+	
+}
+/*@media screen and (max-width: 699px) and (min-width: 520px) {
+    .my-name p {
+	font-size: 50px;
+}
+
+    }
+*/
+
+.my-image img{
+	width: 250px;
+
+}
+.about-me img{
+	width: 200px;
+	 margin: auto;
+	 margin-top: 100px;
+}
+
+.hai{
+	font-size: 22px;
+
+
+}
+
+.about-me p{
+	font-size: 1.2em;
+	margin: 0 0 10px;
+     font-weight: 300;
+        display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.what-cani{
+	padding-top: 150px;
+}
+
+.what-cani h2{
+	text-align: center;
+}
+
+.what-cani div{
+	margin-top: 50px;
+}
+
+.what-cani-text{
+	font-size: 18px;
+}
+
+.profile-image{
+	width: 105px;
+	background-color: #c6c6c6;
+	border-radius: 100%;
+}
+
+.need{
+	margin-top: 100px;
+}
+
+.profile-image2{
+	width: 80px;
+	background-color: #c6c6c6;
+	border-radius: 100%;
+}
+
+.mywork{
+	padding-top: 175px;
+}
+
+.mywork-image{
+	width:250px;
+}
+
+.footer{
+
+	justify-content: center;
+	margin-top: 150px;
+}
+
+.footer li:hover a{
+	color: #000;
+}
+
+.footer li{
+	 
+}
+
+.footer a{
+	font-size: 15px;
+ 	color:#cecece;
+ 	padding-left: 5px;
+ 	text-decoration: none;
+}
+.footer img{
+	width: 20px;
+}
