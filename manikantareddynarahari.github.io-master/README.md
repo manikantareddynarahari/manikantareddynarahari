@@ -1,2 +1,0 @@
-# manikantareddynarahari
-Frontend UI Developer
