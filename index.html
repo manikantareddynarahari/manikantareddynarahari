@@ -17,7 +17,7 @@
 
   <section class="main">
     <!-- Intro Page -->
-    <div class="page intro" id="intro">
+    <div class="page intro d-none" id="intro">
       <h1 class="intro_title">
         <span class="brace">{</span>
         <span>Manikanta</span>
@@ -38,7 +38,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto" id="menu">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#intro">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">About me</a>
@@ -61,7 +61,7 @@
       </div>
     </header>
 
-    <div class="page bg-white" id="about">
+    <div class="page bg-white d-none" id="about">
       <div class="container">
         <div class="row">
           <div class="col-md-9">
@@ -86,7 +86,7 @@
       </div>
     </div>
 
-    <div class="page skills" id="skills">
+    <div class="page skills d-none" id="skills">
       <div class="container">
         <div class="skills_intro py-3 text-white">
           <h2 class="h1">What I Do</h2>
@@ -123,7 +123,7 @@
       </div>
     </div>
 
-    <div class="page work bg-white" id="work">
+    <div class="page work bg-white d-none" id="work">
       <div class="container ">
         <div class="skills_intro py-3">
           <h2 class="h1">Current Works</h2>
@@ -180,6 +180,22 @@
     crossorigin="anonymous"></script>
 
     <script src="js/app.js"></script>
+
+    <script>
+
+      $(".nav-link").on('click', function(e) {
+ 
+        // var pageId = $()
+        var id = $(this).attr("href");
+        // alert(id);
+
+        $(".page").addClass("d-none"); //Hide add page
+
+        $(id).removeClass("d-none"); //
+      })
+
+    </script>
+
 </body>
 
 </html>
